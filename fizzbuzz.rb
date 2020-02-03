@@ -1,13 +1,14 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
-def fizzbuzz(int)
+def fizzbuzz(3)
   if int % 3 == 0
-    "Fizz"
+    puts "Fizz"
   elsif int % 5 == 0
-    "Buzz"
+    puts "Buzz"
   elsif int % 3 == 0 && int % 5 == 0
-    "FizzBuzz"
+    pits "FizzBuzz"
   else
+    puts "nil"
     nil
   end
 end
