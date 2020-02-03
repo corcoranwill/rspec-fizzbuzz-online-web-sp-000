@@ -3,11 +3,11 @@
 def fizzbuzz(int)
   count == 0
   if int % 3 == 0
-    "Fizz"
     count +=1
+    "Fizz"
   elsif int % 5 == 0
-      "Buzz"
-      count += 1
+    count += 1
+    "Buzz"
   elsif count == 2 #int % 3 == 0 && int % 5 == 0
     "FizzBuzz"
   else
